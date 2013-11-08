@@ -1,0 +1,18 @@
+plugin.tx_facebookogtags_pi1 {
+	// Use media page field for rendering additionnal pictures
+	data_page_field = media
+	data_page_field.dir = uploads/media/
+
+	/* EXAMPLE
+	images.1 = IMG_RESOURCE
+	images.1.file = fileadmin/user_upload/file.jpg
+
+	images.2 = IMG_RESOURCE
+	images.2.file {
+		import = uploads/my_directory/
+		import.data = page:my_field
+		import.listNum = 0
+	}
+	*/
+}
+page.headerData.6414 =< plugin.tx_facebookogtags_pi1
